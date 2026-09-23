@@ -22,3 +22,45 @@ nav#main-nav {
     background-color: rgb(227, 214, 150);
     color:rgb(231, 173, 103);
 }
+
+/* ...existing code... */
+
+.card-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 24px;
+    margin-block-start: 30px;
+}
+
+.card {
+    background-color: white;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+    transition: transform 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-6px);
+}
+
+.card img {
+    inline-size: 100%;
+    block-size: 180px;
+    object-fit: cover;
+    display: block;
+}
+
+.card-content {
+    padding: 16px;
+}
+
+.card h2 {
+    margin-block-start: 0;
+    color: purple;
+}
+
+.card p {
+    color: #444;
+    line-height: 1.5;
+}
