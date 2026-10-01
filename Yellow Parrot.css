@@ -1,5 +1,5 @@
 
-/* General page styling */
+
 * {
     box-sizing: border-box;
 }
@@ -13,7 +13,7 @@ body {
     line-height: 1.6;
 }
 
-/* Website header */
+
 .site-header {
     background-color: white;
     border-block-end: 1px solid #a7d7f9;
@@ -142,7 +142,7 @@ a:visited {
     color: #0b0080;
 }
 
-/* Infobox */
+
 .infobox {
     float: inline-end;
     inline-size: 310px;
@@ -183,7 +183,7 @@ figcaption {
     padding: 5px;
 }
 
-/* Infobox tables */
+
 .infobox table {
     inline-size: 100%;
     border-collapse: collapse;
@@ -206,7 +206,7 @@ figcaption {
     text-align: start;
 }
 
-/* Table of contents */
+
 .toc {
     display: table;
     min-inline-size: 230px;
@@ -262,7 +262,6 @@ figcaption {
     display: block;
 }
 
-/* Footer */
 .article-footer {
     clear: both;
     border-block-start: 1px solid #a2a9b1;
@@ -272,14 +271,14 @@ figcaption {
     font-size: 0.85rem;
 }
 
-/* Clear floated images */
+
 article::after {
     content: "";
     display: block;
     clear: both;
 }
 
-/* Mobile layout */
+
 @media (max-width: 700px) {
     .article-container {
         padding: 0 10px;
